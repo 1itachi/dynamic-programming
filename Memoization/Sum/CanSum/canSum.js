@@ -4,7 +4,6 @@
 // You may assume that all input members are non negative
 
 const canSum=(target,arr)=>{
-
     if(target==0) return true;
     if(target<0) return false;
     for(let i=0; i<arr.length; i++){

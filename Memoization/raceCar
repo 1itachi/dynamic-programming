@@ -1,0 +1,5 @@
+racecar can travel in three lanes and always start at lane 2. Each step has a blockade and step taken to avoid it costs one step (2->1 costs 1, also 1->3 costs 1)
+caculate the lowest steps that can be taken to finish of the race.
+
+console.log(racecar([2,1,2])) //1
+console.log(racecar([2,1,3,2])) //2
