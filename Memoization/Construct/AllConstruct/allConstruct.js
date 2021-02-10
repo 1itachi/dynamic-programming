@@ -4,4 +4,3 @@
 // the target.
 
 //You may reuse the elements of `wordBank` as many times as needed.
-GIT
