@@ -11,16 +11,20 @@ const canSum = (target, arr)=>{
     tempArray[0] = true //base case, getting zero will always be true
 
     for(let i=0; i<=target; i++){
+        
+        if(tempArray[i] === true){
 
         arr.forEach(element => {
             
             let index = i+element;
 
-            if(index<=target && tempArray[i] === true) {
+            if(index<=target) {
                 tempArray[index] = true
             }
             
         });
+
+     }
     }
 
 
