@@ -1,9 +1,0 @@
-1. Make it work
-    a. Visualize the problem as a tree (each edge should decrease the problem)
-    b. implement the tree using a recursion
-    c. test it
-
-2. Make it efficient
-    a. Add a memo object
-    b. add a base case to return memo values
-    c. store return values into the memo
