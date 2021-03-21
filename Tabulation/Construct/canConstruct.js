@@ -1,5 +1,3 @@
-const { tsEnumDeclaration } = require("@babel/types")
-
 const canConstruct=(word, arrWords)=>{ 
 
     let tempArray = Array(word.length+1).fill(false)
@@ -17,9 +15,7 @@ const canConstruct=(word, arrWords)=>{
 
                 }
 
-
             });
-
 
         }
 
@@ -29,11 +25,6 @@ const canConstruct=(word, arrWords)=>{
     return tempArray[word.length]
 
 }
-
-
-
-
-
 
 
 

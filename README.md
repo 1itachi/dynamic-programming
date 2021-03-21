@@ -1,5 +1,9 @@
 # dynamic-programming
-Dynamic programming problems
+1. Notice any overlapping subproblems
+2. decide what is the  trivially smallest input 
+3. think recursively to use memoization
+4. think iteratively to use tabulation
+5. draw strategy first
 
 ## Memoization
 1. Make it work
