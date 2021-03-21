@@ -26,9 +26,6 @@ const canSum = (target, arr)=>{
 
      }
     }
-
-
-
     return tempArray[target]
 }
 
